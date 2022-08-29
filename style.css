@@ -1,0 +1,18 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}   
+.nav-items{
+    list-style: none;
+    display: flex;
+}
+
+.nav-items > li{
+    margin-inline: 10px;
+}
+
+.image{
+    height: auto;
+    width: 150px;
+}
