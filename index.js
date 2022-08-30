@@ -1,5 +1,6 @@
 function Header(){
-    return (<header>
+    return (
+    <header>
         <nav className = "nav">
             <img className = "image" src = "react-logo.png" />
             <ul className = "nav-items">
