@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+html{
+  width: 100vw; height: 100vh;
+}
+
+body{
+  width: 100%; height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root{
+  width: 550px; height: 853px;
+  background: #E5E5E5;
+}
+
+header{
+  height: 70px;
+  background-color: white;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+header > img{
+  width: 82px;
+  height: 23.35px;
+  margin-left: 30px;
+}
+
+.groupPicture{
+  height: 232px;
+  width: 400px;
+  margin-inline: 77px;
+}
+
+.Hero{
+  margin-top: 26px;
+}
+
+.heroHeading{
+  color: black;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  margin-left: 36px;
+  margin-top: 32px;
+}
+
+.heroPara{
+  color: #222222;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+  margin-left: 36px;
+  margin-top: 16px;
+  width: 320px;
+}
+
+.card{
+  margin-left: 37px;
+  margin-top: 40px;
+}
+
+.cardImage{
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+}
+
+.star{
+  width: 14px; height: 14px;
+  border-radius: 0.5px;
+}
+
+.span-one{
+  font-weight: 300;
+  color: #222222;
+  font-size: 12px;
+  line-height: 110%; 
+}
+
+.firstPara{
+  color: #918E9B; 
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+}
+
+.secondPara{
+  color: #222222;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  margin-top: 6px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.thirdPara{
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 110%;
+  font-weight: 300;
+}
