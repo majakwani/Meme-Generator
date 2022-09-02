@@ -20,7 +20,6 @@ body{
 #root{
   width: 550px;
   height: 550px;
-  border: 2px solid purple;
 }
 
 .header{
@@ -69,6 +68,7 @@ input{
   border-radius: 5px;
   margin-inline: 17px;
   margin-top: 36px;
+  padding: 5px;
 }
 
 .inputs{
@@ -93,4 +93,11 @@ button{
   letter-spacing: -0.1em;
   color: white;
   border: none;
+}
+
+.form > img{
+  max-width: 100%;
+  border-radius: 2px;
+  margin-inline: auto;
+  margin-block: 38px;
 }
